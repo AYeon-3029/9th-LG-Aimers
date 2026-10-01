@@ -1,0 +1,18 @@
+
+=== SymmetricTree(depth=6, 902Á¡ baseline) ===
+  val=2022 | best_iter= 538 | Score= 2353.23 | 92s
+  val=2024 | best_iter= 635 | Score=  776.56 | 153s
+
+=== Depthwise(depth=6) ===
+  val=2022 | best_iter= 385 | Score= 2339.10 | 82s
+  val=2024 | best_iter= 469 | Score=  746.02 | 144s
+
+=== Lossguide(max_leaves=64) ===
+  val=2022 | best_iter= 478 | Score= 2338.43 | 206s
+  val=2024 | best_iter= 384 | Score=  741.89 | 221s
+
+
+=== ¿ä¾à (baseline = SymmetricTree, 902Á¡ ±¸¼º) ===
+  SymmetricTree(depth=6, 902Á¡ baseline)    | 2022= 2353.23 (  +0.00) | 2024=  776.56 (  +0.00) | Æò±Õ= 1564.90
+  Depthwise(depth=6)                       | 2022= 2339.10 ( -14.13) | 2024=  746.02 ( -30.54) | Æò±Õ= 1542.56
+  Lossguide(max_leaves=64)                 | 2022= 2338.43 ( -14.80) | 2024=  741.89 ( -34.67) | Æò±Õ= 1540.16

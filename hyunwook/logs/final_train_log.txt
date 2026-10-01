@@ -1,0 +1,6 @@
+K_ADOPTED=50 | train: (1475092, 83) | 피처: 82
+train: 1221585 | val: 253507
+학습 완료 :: 154.8s (best_iteration=635)
+Validation Score(2024 holdout): 776.56 | 902점 구성(k=50) 대비 -6.45
+전체 데이터 재학습 완료 (iterations=635) :: 147.8s
+저장 완료: ./model/catboost_final.pkl

@@ -1,0 +1,34 @@
+C:\Users\user\Documents\프로젝트\Aimers_8\hyunwook\train_v23_ft_transformer.py:177: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  return torch.as_tensor(x, dtype=dtype, device=device)
+device=cuda
+
+=== val=2024 : 피처 준비 ===
+  n_cont=72 | cat_cardinalities=[3, 3, 9, 13, 13, 13, 5, 25] | n_pitchers=711 | n_batters=742
+  train=1221585 | val=253507
+  epoch=  1 | lr=3.00e-05 | train_loss=0.69297 | val Score=  230.37 * | 64.0s
+  epoch=  2 | lr=6.00e-05 | train_loss=0.68570 | val Score=    0.00   | 63.9s
+  epoch=  3 | lr=9.00e-05 | train_loss=0.68455 | val Score=  150.36   | 63.9s
+  epoch=  4 | lr=1.00e-04 | train_loss=0.68347 | val Score=  476.10 * | 65.2s
+  epoch=  5 | lr=1.00e-04 | train_loss=0.68272 | val Score=  427.85   | 63.8s
+  epoch=  6 | lr=1.00e-04 | train_loss=0.68242 | val Score=  551.15 * | 63.8s
+  epoch=  7 | lr=1.00e-04 | train_loss=0.68214 | val Score=  609.13 * | 63.8s
+  epoch=  8 | lr=1.00e-04 | train_loss=0.68194 | val Score=  593.39   | 63.8s
+  epoch=  9 | lr=1.00e-04 | train_loss=0.68171 | val Score=  629.23 * | 63.9s
+  epoch= 10 | lr=1.00e-04 | train_loss=0.68150 | val Score=  608.53   | 63.8s
+  epoch= 11 | lr=1.00e-04 | train_loss=0.68131 | val Score=  467.90   | 63.8s
+  epoch= 12 | lr=1.00e-04 | train_loss=0.68116 | val Score=  676.32 * | 63.8s
+  epoch= 13 | lr=1.00e-04 | train_loss=0.68090 | val Score=  588.11   | 63.8s
+  epoch= 14 | lr=1.00e-04 | train_loss=0.68066 | val Score=  702.64 * | 63.8s
+  epoch= 15 | lr=1.00e-04 | train_loss=0.68057 | val Score=  588.20   | 63.7s
+  epoch= 16 | lr=1.00e-04 | train_loss=0.68030 | val Score=  588.94   | 63.7s
+  epoch= 17 | lr=1.00e-04 | train_loss=0.68022 | val Score=  658.43   | 63.7s
+  epoch= 18 | lr=1.00e-04 | train_loss=0.67986 | val Score=  414.14   | 63.7s
+  epoch= 19 | lr=1.00e-04 | train_loss=0.67976 | val Score=  513.49   | 63.7s
+  epoch= 20 | lr=1.00e-04 | train_loss=0.67953 | val Score=  412.48   | 63.7s
+  조기종료 (patience=6)
+  최고 val Score=702.64
+
+=== 스크리닝 결과 (val=2024) ===
+  FT-Transformer+ID임베딩 :   702.64
+  CatBoost 902점 구성(이 환경 재현치, 17단계) : 776.56
+  차이: -73.92

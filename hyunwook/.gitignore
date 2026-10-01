@@ -1,0 +1,23 @@
+# 데이터 파일 (대용량)
+open/
+*.zip
+
+# 강의자료 (대용량 PDF)
+강의자료/
+
+# 가상환경 / 산출물
+.venv/
+model/
+output/
+
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+catboost_info/
+
+# 팀원 원본 코드 (각자 레포에서 관리 — 비교 검증 결과만 README 6.19절에 기록)
+팀원 코드 병합/

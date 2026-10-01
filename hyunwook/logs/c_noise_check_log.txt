@@ -1,0 +1,23 @@
+  val=2022 | A(902¡° baseline)          | seed=42 | best_iter= 538 | Score= 2353.23 | 93s
+  val=2022 | A(902¡° baseline)          | seed=43 | best_iter= 834 | Score= 2350.02 | 140s
+  val=2022 | A(902¡° baseline)          | seed=44 | best_iter= 813 | Score= 2360.89 | 136s
+  val=2022 | C(depth8/lr.015/l2=6)     | seed=42 | best_iter= 686 | Score= 2371.68 | 153s
+  val=2022 | C(depth8/lr.015/l2=6)     | seed=43 | best_iter= 686 | Score= 2365.65 | 153s
+  val=2022 | C(depth8/lr.015/l2=6)     | seed=44 | best_iter= 774 | Score= 2370.12 | 170s
+  val=2024 | A(902¡° baseline)          | seed=42 | best_iter= 635 | Score=  776.56 | 156s
+  val=2024 | A(902¡° baseline)          | seed=43 | best_iter= 683 | Score=  771.54 | 166s
+  val=2024 | A(902¡° baseline)          | seed=44 | best_iter= 745 | Score=  775.95 | 180s
+  val=2024 | C(depth8/lr.015/l2=6)     | seed=42 | best_iter= 669 | Score=  781.70 | 219s
+  val=2024 | C(depth8/lr.015/l2=6)     | seed=43 | best_iter= 768 | Score=  787.73 | 247s
+  val=2024 | C(depth8/lr.015/l2=6)     | seed=44 | best_iter= 731 | Score=  790.68 | 237s
+
+
+=== Ω√µÂ ∞£ ∫–∆˜ (n=3) ===
+  A(902¡° baseline)          | val=2022 | scores=[2353.23, 2350.02, 2360.89] | ∆Ú±’= 2354.72 | std=  4.56 | range= 10.87
+  A(902¡° baseline)          | val=2024 | scores=[776.56, 771.54, 775.95] | ∆Ú±’=  774.68 | std=  2.24 | range=  5.02
+  C(depth8/lr.015/l2=6)     | val=2022 | scores=[2371.68, 2365.65, 2370.12] | ∆Ú±’= 2369.15 | std=  2.56 | range=  6.03
+  C(depth8/lr.015/l2=6)     | val=2024 | scores=[781.7, 787.73, 790.68] | ∆Ú±’=  786.70 | std=  3.74 | range=  8.98
+
+=== A vs C ∆Ú±’ ∫Ò±≥ (Ω≈»£ vs ≥Î¿Ã¡Ó) ===
+  val=2022 | A ∆Ú±’= 2354.72(std= 4.56) | C ∆Ú±’= 2369.15(std= 2.56) | C-A= +14.43 | gap/pooled_std=3.90πË
+  val=2024 | A ∆Ú±’=  774.68(std= 2.24) | C ∆Ú±’=  786.70(std= 3.74) | C-A= +12.02 | gap/pooled_std=3.90πË

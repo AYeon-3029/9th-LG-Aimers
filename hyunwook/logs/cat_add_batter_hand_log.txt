@@ -1,0 +1,13 @@
+=== baseline (cat_cols=['top_bottom', 'game_type', 'base_state', 'pitcher_team_id', 'batter_team_id', 'count_state', 'hand_matchup', 'outs_base_state']) ===
+    val=2022 | best_iter= 538 | Score= 2353.23 | 92.2s
+    val=2024 | best_iter= 635 | Score=  776.56 | 152.6s
+=== +batter_hand (cat_cols=['top_bottom', 'game_type', 'base_state', 'pitcher_team_id', 'batter_team_id', 'count_state', 'hand_matchup', 'outs_base_state', 'batter_hand']) ===
+    val=2022 | best_iter= 682 | Score= 2346.70 | 114.5s
+    val=2024 | best_iter= 642 | Score=  779.92 | 153.9s
+
+=== ¿ä¾à ===
+                     2022        2024          avg
+baseline      2353.232623  776.559237  1564.895930
++batter_hand  2346.700506  779.924222  1563.312364
+
+baseline->+batter_hand diff: 2022=-6.53 2024=+3.36 avg=-1.58

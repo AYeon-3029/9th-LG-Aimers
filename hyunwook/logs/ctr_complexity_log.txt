@@ -1,0 +1,28 @@
+
+=== max_ctr_complexity=±âº»°ª(902Á¡ baseline) ===
+  val=2022 | best_iter= 538 | Score= 2353.23 | 91s
+  val=2024 | best_iter= 635 | Score=  776.56 | 154s
+
+=== max_ctr_complexity=4 ===
+  val=2022 | best_iter= 538 | Score= 2353.23 | 94s
+  val=2024 | best_iter= 635 | Score=  776.56 | 156s
+
+=== max_ctr_complexity=5 ===
+  val=2022 | best_iter= 633 | Score= 2352.17 | 110s
+  val=2024 | best_iter= 635 | Score=  776.56 | 155s
+
+=== max_ctr_complexity=6 ===
+  val=2022 | best_iter= 633 | Score= 2352.17 | 110s
+  val=2024 | best_iter= 635 | Score=  776.56 | 156s
+
+=== max_ctr_complexity=8 ===
+  val=2022 | best_iter= 633 | Score= 2352.17 | 111s
+  val=2024 | best_iter= 635 | Score=  776.56 | 157s
+
+
+=== ¿ä¾à (baseline = max_ctr_complexity ±âº»°ª) ===
+  max_ctr_complexity=±âº»°ª(902Á¡ baseline)         | 2022= 2353.23 (  +0.00) | 2024=  776.56 (  +0.00) | Æò±Õ= 1564.90
+  max_ctr_complexity=4                          | 2022= 2353.23 (  +0.00) | 2024=  776.56 (  +0.00) | Æò±Õ= 1564.90
+  max_ctr_complexity=5                          | 2022= 2352.17 (  -1.06) | 2024=  776.56 (  +0.00) | Æò±Õ= 1564.36
+  max_ctr_complexity=6                          | 2022= 2352.17 (  -1.06) | 2024=  776.56 (  +0.00) | Æò±Õ= 1564.36
+  max_ctr_complexity=8                          | 2022= 2352.17 (  -1.06) | 2024=  776.56 (  +0.00) | Æò±Õ= 1564.36

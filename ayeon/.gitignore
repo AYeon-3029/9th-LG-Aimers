@@ -1,0 +1,10 @@
+data/
+baseline_submit.zip
+submit.zip
+output/
+__pycache__/
+*.pyc
+_stack_cache/
+*_log.txt
+*_log2.txt
+walk_forward_stack_log*.txt

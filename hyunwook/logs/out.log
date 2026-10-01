@@ -1,0 +1,25 @@
+train=1221585 | val=253507
+
+=== OOF 생성: 모델1(공유) ===
+    fold=0 (split=False) done | 403.5s
+    fold=1 (split=False) done | 357.3s
+    fold=2 (split=False) done | 259.0s
+
+=== OOF 생성: 모델2(R/F 분리) ===
+    fold=0 (split=True) done | 488.9s
+    fold=1 (split=True) done | 522.8s
+    fold=2 (split=True) done | 296.2s
+
+=== 전체 train<2024로 재학습 -> val=2024 예측 ===
+  모델1(공유) val 학습 완료 | 171.2s
+  모델2(R/F분리) val 학습 완료 | 218.5s
+
+=== 메타러너 학습 ===
+
+=== 결과 (val=2024) ===
+  모델1(공유, 902점 구성) 단독      :   776.56
+  모델2(R/F분리) 단독                :   682.26
+  단순 평균 블렌딩(선형)             :   744.77
+  비선형 메타러너                    :   767.57
+  메타러너 - 공유 단독: -8.99
+  메타러너 - 평균 블렌딩: +22.80

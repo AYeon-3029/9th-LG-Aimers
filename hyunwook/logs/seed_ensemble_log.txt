@@ -1,0 +1,16 @@
+  val=2022 | seed=42 | best_iter= 538 | solo Score= 2353.23 | 92s
+  val=2022 | seed=43 | best_iter= 834 | solo Score= 2350.02 | 135s
+  val=2022 | seed=44 | best_iter= 813 | solo Score= 2360.89 | 133s
+  val=2022 | seed=45 | best_iter= 699 | solo Score= 2343.10 | 117s
+  val=2022 | seed=46 | best_iter= 716 | solo Score= 2353.35 | 122s
+  val=2024 | seed=42 | best_iter= 635 | solo Score=  776.56 | 152s
+  val=2024 | seed=43 | best_iter= 683 | solo Score=  771.54 | 161s
+  val=2024 | seed=44 | best_iter= 745 | solo Score=  775.95 | 174s
+  val=2024 | seed=45 | best_iter= 702 | solo Score=  770.70 | 165s
+  val=2024 | seed=46 | best_iter= 696 | solo Score=  772.23 | 165s
+
+
+=== ¿ä¾à (baseline = n_seeds=1, Áï ÇöÀç 902Á¡ ÇÁ·Î´ö¼Ç°ú µ¿ÀÏ) ===
+  n_seeds=1 | 2022= 2353.23 (  +0.00) | 2024=  776.56 (  +0.00) | Æò±Õ= 1564.90
+  n_seeds=3 | 2022= 2360.79 (  +7.56) | 2024=  778.50 (  +1.94) | Æò±Õ= 1569.65
+  n_seeds=5 | 2022= 2358.72 (  +5.49) | 2024=  777.83 (  +1.28) | Æò±Õ= 1568.28
